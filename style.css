@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(desert.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    background-color: #fff;
+    position: relative;
+    padding: 5px;
+    margin: 10% auto;
+    overflow: hidden;
+}
+.btn-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.log-button{
+    padding: 10px 30px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+#btn{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to left, orange, yellow);
+    transition: .5s;
+    border-radius: 30px;
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 40px;
+    margin: 0px 10px;
+    cursor:pointer;
+    box-shadow: 0 0 20px 5px #ff61241f;
+    border-radius: 50%;
+}
+.input-group{
+    top: 180px;;
+    position:absolute;
+    width: 280px;
+    transition: .20s;
+}
+.input-box{
+    width:100%;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid orange;
+    border-left: 0;
+    margin:5px 0px;
+    padding:1px 5px 10px 5px;
+    background: transparent;
+    outline:none;
+}
+.login-btn{
+    width: 85%;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    background: linear-gradient(to left, orange, yellow);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.checkbox{
+    margin:30px 10px 33px 0;
+}
+span{
+    color: red;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+i{
+    position:absolute;
+    right: 0;
+    font-size: 30px;
+    color: red;
+}

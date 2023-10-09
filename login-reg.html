@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Login & Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" class="log-button" onclick="login()">Login</button>
+                <button type="button" class="log-button" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="fb.jpg" alt="img">
+                <img src="x.jpg" alt="img">
+                <img src="google.jpg" alt="img">
+            </div>
+            <form id="login" class="input-group">
+                <i class='bx bx-user'></i>
+                <input type="text" class="input-box" placeholder="Username" required>
+                <i class='bx bx-lock'></i>
+                <input type="password" class="input-box" placeholder="Password" required>
+                <input type="checkbox" class="checkbox"><span>Remember  Password</span>
+                <button type="submit" class="login-btn">login</button>
+            </form>
+            <form id="register" class="input-group">
+                <i class='bx bx-user'></i>
+                <input type="text" class="input-box" placeholder="Username" required>
+                <i class='bx bxs-envelope'></i>
+                <input type="email" class="input-box" placeholder="Email Address" required>
+                <i class='bx bx-lock'></i>
+                <input type="password" class="input-box" placeholder="Password" required>
+                <input type="checkbox" class="checkbox"><span>I Agree to the Terms and Condition</span>
+                <button type="submit" class="login-btn">Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x= document.getElementById("login")
+        var y= document.getElementById("register")
+        var z= document.getElementById("btn")
+
+        function register(){
+            x.style.left="-500px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+    </script>
+</body>
+</html>
